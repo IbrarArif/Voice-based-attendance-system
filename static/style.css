@@ -1,0 +1,188 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('/static/background.jpeg');
+    background-size: cover;
+    margin: 50px auto; /* Added auto value for horizontal centering */
+    padding-top: 100px; /* Increased padding-top to accommodate the additional margin */
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 123, 255, 0.9);
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000;
+}
+
+.navbar a {
+    color: #fff;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.navbar a:hover {
+    background-color: #0056b3;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(255, 70, 0, 0.1);
+    text-align: center;
+    width: 450px;
+    margin-top: 130px; /* Added top margin */
+}
+
+input, button, select {
+    margin: 15px 0;
+    padding: 12px;
+    width: calc(100% - 24px);
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 500;
+}
+
+a.button {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+a.button:hover {
+    background-color: #218838;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/* Specific styles for the hero section on the homepage */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 100px 20px;
+    margin-top: 3px;
+}
+
+.hero .container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+}
+
+.hero h1 {
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 700;
+    font-size: 2.5em;
+}
+
+.hero h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #007bff;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+.hero p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.hero .author, .hero .supervisor, .hero .degree {
+    margin-top: 40px;
+}
+
+.hero .degree p {
+    text-align: justify;
+}
+
+/* New styles for the dashboard hero section */
+.dashboard-hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 100px 20px;
+    margin-top: 60px;
+}
+
+.dashboard-hero .container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 90px; /* Adjusted padding for better proportion */
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+}
+
+.dashboard-hero h1 {
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 700;
+    font-size: 4em; /* Adjusted font size */
+}
+
+.dashboard-hero h2 {
+    margin-top: 5px;
+    margin-bottom: 30px;
+    color: #007bff;
+    font-weight: 600;
+    font-size: 4em; /* Adjusted font size */
+}
+
+.dashboard-hero p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+    font-size: 2.2em;
+    color: #000000; /* Adjusted font size */
+}
+
+.dashboard-hero .author, .dashboard-hero .supervisor, .dashboard-hero .degree {
+    margin-top: 30px;
+}
+
+.dashboard-hero .degree p {
+    text-align: justify;
+}

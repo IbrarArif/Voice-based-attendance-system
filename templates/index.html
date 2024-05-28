@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Based Attendance System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+</head>
+<body>
+    <div class="navbar">
+        <a href="{{ url_for('home') }}">Home</a>
+        <a href="{{ url_for('login') }}">Login</a>
+        <a href="{{ url_for('register') }}">Register</a>
+    </div>
+    <div class="hero">
+        <div class="container">
+            <h1>Voice Based Attendance System</h1>
+            <p>Welcome to the Voice Based Attendance System. Please login or register to continue.</p>
+            <div class="author">
+                <h2>By</h2>
+                <p>Hafsa Fareed</p>
+                <p>CIIT/FA20-BSE-009/VHR</p>
+            </div>
+            <div class="supervisor">
+                <h2>Supervisor</h2>
+                <p>Mr. Najeeb Ullah Khan</p>
+            </div>
+            <div class="degree">
+                <h2>Bachelor of Science in Computer Science (2020-2024)</h2>
+                <p>The Voice-Based Attendance System is a web-based tool that is transforming attendance tracking in educational institutions. It introduces real-time attendance management with voice recognition. This creative technique provides administrators, teachers, and students with a more effective and user-friendly alternative than traditional ways.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
