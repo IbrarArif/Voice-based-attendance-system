@@ -23,11 +23,10 @@ This is a simple voice-based attendance system built with Flask, SQLAlchemy, and
    ```bash
    git clone https://github.com/IbrarArif/Voice-based-attendance-system.git
    cd Voice-based-attendance-system
-  ```
+```
 Install the required dependencies:
 
 ```bash
-
 pip install -r requirements.txt
 ```
 Set up the database. Make sure you have MySQL installed and running. Then, update the SQLALCHEMY_DATABASE_URI in the config.py file to match your database credentials:
